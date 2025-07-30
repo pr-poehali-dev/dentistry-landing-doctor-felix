@@ -28,7 +28,7 @@ export default function Index() {
       </header>
 
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-b from-blue-50 to-white">
+      <section className="py-20 bg-gradient-to-b from-amber-50 to-white">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-6">
             Здоровая улыбка — <br />
@@ -86,18 +86,6 @@ export default function Index() {
                 title: "Протезирование",
                 description: "Коронки, мосты, съемные и несъемные протезы",
                 price: "от 20 000 ₽"
-              },
-              {
-                icon: "Zap",
-                title: "Имплантация",
-                description: "Современные импланты, малоинвазивные методы",
-                price: "от 45 000 ₽"
-              },
-              {
-                icon: "Scissors",
-                title: "Хирургия",
-                description: "Удаление зубов, пластика десен, костная пластика",
-                price: "от 3 000 ₽"
               }
             ].map((service, index) => (
               <Card key={index} className="border-0 shadow-lg hover:shadow-xl transition-shadow bg-white">
@@ -216,7 +204,7 @@ export default function Index() {
               ))}
             </div>
             
-            <div className="mt-8 p-6 bg-blue-50 rounded-lg text-center">
+            <div className="mt-8 p-6 bg-amber-50 rounded-lg text-center">
               <Icon name="Info" size={20} className="text-primary mx-auto mb-2" />
               <p className="text-gray-700">
                 Окончательная стоимость определяется после консультации и составления плана лечения
